@@ -1,0 +1,4546 @@
+[
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Backpack",
+    "creator": "SYSTEM",
+    "description": "This is a profile for a backpack. Backpacks can take a lot of different forms, but the basics of how one works remains the same. Backpacks vary in price and rarity, and they have one unique rule that lets characters carry more. While wearing a backpack, your character increases their encumbrance threshold by four.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 50
+      },
+      "encumbrance": -4,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "6c3cefaba8cf46e1a650",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Painkiller",
+    "creator": "SYSTEM",
+    "description": "This is the profile for a painkiller, which is the generic term we use for a consumable, quick-healing item. Being able to quickly heal a number of wounds is important to the system; it lets you keep your character moving when they would otherwise be eliminated, and it tempers the lethality of combat. Although these items mechanically heal wounds, thematically they can help your character get back on their feet in any number of ways, depending on the setting. In a {@setting fantasy} setting, these may be {@i healing potions} that use magic to heal injuries. In the {@setting steampunk} setting, they may be {@i healing tonics} that rely on some ill-understood scientific or alchemical properties. The {@setting weird war} setting can use {@i aid packs} that are either scientific or magical. A {@setting modern day} setting treats these as {@i painkillers}, allowing your character to ignore minor injuries and keep going. {@setting Science fiction} or {@setting space opera} settings could also use painkillers, or they could use {@i autohealers} that rely on futuristic medicine or even nanotechnology to patch up injuries in moments. Whatever the name, painkillers work the same way in the game mechanics for every setting. Using a painkiller requires one maneuver for your character to apply it either to themself or to another engaged character. The painkiller is consumed in the process, and the character immediately heals 5 wounds. While a character can use multiple painkillers, this provides diminishing returns. Each painkiller after the first heals one wound fewer. A second painkiller heals 4 wounds, a third heals 3, and so on. Using a sixth painkiller in a day has no further effect. After one day, the lingering effects of the painkillers wear off, and the character may use painkillers again with their normal effect (this means a character can consume up to five painkillers a day, each day). See page 116 for more information on painkillers and healing.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 2,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 25
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "1d91d58764f04cf0af3b",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Rope",
+    "creator": "SYSTEM",
+    "description": "This is a profile for a length of rope: maybe a coil of woven hemp, or maybe a high-tech nylon climbing rope. Rope doesn't come with any unique rules. The only rule associated with it is that often it is the right tool for the job.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 1,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 5
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "8399584ff710480286a6",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Knife",
+    "creator": "SYSTEM",
+    "description": "This is our profile for a standard knife. The profile is general enough that this could work for a knife carried in the belt of a medieval noble, a weapon bought at a sporting goods store today, or part of the gear of an interstellar soldier of the future. Since the weapon is a Melee weapon, it uses the {@skill Melee} skill. The damage it can deal depends on the Brawn of the user, so it has a \"+\" next to the damage entry to signify that you'd add your character's Brawn rating to the number to figure out its base damage. +1 damage means it does not do a great deal of damage, which is appropriate for a knife. A Crit rating of 3 is what we consider our \"average\" Crit value. Rolling {@symbols aaa} on a check is not too unlikely for a skilled user. And because this is a close combat weapon, it can only be used against enemies your character is engaged with (hence the range of \"engaged\"). A knife is small, so we gave it an encumbrance value of 1. A knife is cheap and easy to find, hence the inexpensive price and low rarity. It also has no special item qualities, because again, it's a simple knife.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 1,
+      "skill": "Melee",
+      "damage": "+1",
+      "critical": "3",
+      "range": "Engaged",
+      "cost": {
+        "gold": 25
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "84d8e75dd44b4b098348",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Revolver",
+    "creator": "SYSTEM",
+    "description": "This is our profile for a standard revolver. Like the knife's, this profile is general enough that it could work for a sixshooter out of the 1800s, a sidearm in a steampunk universe, or something straight out of our own era. The weapon is a Ranged weapon, hence it uses the {@skill Ranged} skill. Of course, if your setting breaks up {@skill Ranged} into multiple skills, this would probably use {@skill Ranged (Light)} since it's a pistol used in one hand. The damage reflects this: good damage for a pistol, but not comparable to a military rifle's. The same goes for the Crit rating. Rolling {@symbols aaaa} on a check is a bit less likely, so it's going to take a skilled shot to make this weapon effective. We gave this a range of medium, which is typically the maximum range for pistols (some pistols are only useful at short range). The weapon's a bit bigger and bulkier than the knife, hence the higher encumbrance value of 2. Its cost reflects the higher cost of firearms, but it should still be fairly easy to find one. It also has one item quality, since revolvers tend to be accurate sidearms. You may be surprised that we didn't give it the {@quality Limited Ammo|Limited Ammo 6} quality (for its six shots). However, we find in games that combat encounters tend to average around three to five rounds. If a weapon is unlikely to run out of ammo before combat ends, we recommend that it's not worth tracking ammo and that you should use the rules in the {@sidebar Tracking Ammo} sidebar on page 89.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "Ranged",
+      "damage": "6",
+      "critical": "4",
+      "range": "Medium",
+      "cost": {
+        "gold": 350
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "2644603b00a24d83a32c",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Axe",
+    "creator": "SYSTEM",
+    "description": "Axes are vicious weapons that can leave painful, incapacitating wounds. Therefore, we gave them the {@quality Vicious|Vicious 1} quality so that any Critical Injuries your character inflicts will be worse than expected.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 1,
+      "skill": "Melee (Light)",
+      "damage": "+3",
+      "critical": "3",
+      "range": "Engaged",
+      "cost": {
+        "gold": 150
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "121008cd123344c49980",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Greataxe",
+    "creator": "SYSTEM",
+    "description": "Almost any hand weapon can be found as a great weapon, although swords and axes are the most common. As you see from their stat lines, great weapons are devastating, but require impressive physical strength to swing (the greataxe) or coordination to keep their blade in the right place (the {@gear greatsword}). The greataxe and {@gear greatsword} also have some of the characteristics of their smaller cousins ({@quality Defensive} and {@quality Vicious}, respectively).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "Melee (Heavy)",
+      "damage": "+4",
+      "critical": "3",
+      "range": "Engaged",
+      "cost": {
+        "gold": 300
+      },
+      "encumbrance": 4,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "90c5334a41af42f79777",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Greatsword",
+    "creator": "SYSTEM",
+    "description": "Almost any hand weapon can be found as a great weapon, although swords and axes are the most common. As you see from their stat lines, great weapons are devastating, but require impressive physical strength to swing (the {@gear greataxe}) or coordination to keep their blade in the right place (the greatsword). The {@gear greataxe} and greatsword also have some of the characteristics of their smaller cousins ({@quality Defensive} and {@quality Vicious}, respectively).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "Melee (Heavy)",
+      "damage": "+4",
+      "critical": "2",
+      "range": "Engaged",
+      "cost": {
+        "gold": 300
+      },
+      "encumbrance": 3,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "a87a3db66eaa40f79871",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Halberd",
+    "creator": "SYSTEM",
+    "description": "A halberd is a basic infantry weapon, basically an axe blade mounted on a long pole. It requires two hands to wield and is pretty heavy, but it's cheap, it keeps an opponent at arm's length, and the cutting head can shear through armor.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "Melee (Heavy)",
+      "damage": "+3",
+      "critical": "3",
+      "range": "Engaged",
+      "cost": {
+        "gold": 250
+      },
+      "encumbrance": 5,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "620a5b5a31aa49eeb700",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Light Spear",
+    "creator": "SYSTEM",
+    "description": "Although a simple weapon, a spear is easy to wield and allows the user to keep some distance from an opponent. Hence, spears don't have very high damage, but the {@quality Accurate|Accurate 1} quality represents their ease of use. In addition, the {@quality Defensive|Defensive 1} quality represents their usefulness at keeping someone at arms' reach.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 1,
+      "skill": "Melee (Light)",
+      "damage": "+2",
+      "critical": "4",
+      "range": "Engaged",
+      "cost": {
+        "gold": 90
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "4c4c7687ddd54c1b8060",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Mace",
+    "creator": "SYSTEM",
+    "description": "Maces are simple weapons, so they didn't get any item qualities. Instead, they are cheaper than other weapons.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 1,
+      "skill": "Melee (Light)",
+      "damage": "+3",
+      "critical": "4",
+      "range": "Engaged",
+      "cost": {
+        "gold": 75
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "3c7adfb67b1444dea2a7",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Shield",
+    "creator": "SYSTEM",
+    "description": "Whether crafted from wood, steel, or hide, shields are common among warriors of all cultures and skill levels for a simple reason: they keep you alive. The utility of a shield for blocking and parrying blows cannot be overstated, and thus shields are a staple of most ancient cultures. We represented these elements of a shield by giving it the {@quality Defensive|Defensive 1} and {@quality Deflection|Deflection 1} qualities. It also has the Knockdown quality, since nothing beats a shield for bowling someone off their feet. However, a shield can't be used to hit someone as easily as a sword or axe, hence the {@quality Inaccurate|Inaccurate 1} quality.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 1,
+      "skill": "Melee (Light)",
+      "damage": "+0",
+      "critical": "6",
+      "range": "Engaged",
+      "cost": {
+        "gold": 80
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "2b39ab18342249f6b5b1",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Sword",
+    "creator": "SYSTEM",
+    "description": "Designed to let the wielder block and parry blows, swords can be defensive, as well as offensive. To reflect this, swords get {@quality Defensive|Defensive 1}. Their sharp blades also make it easier to inflict Critical Injuries, giving them a better Critical rating.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 2,
+      "skill": "Melee (Light)",
+      "damage": "+3",
+      "critical": "2",
+      "range": "Engaged",
+      "cost": {
+        "gold": 200
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "afd51a6267374fa48b39",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Bow",
+    "creator": "SYSTEM",
+    "description": "The primitive appearance of the bow and {@gear longbow} belies their effectiveness. In the hands of a skilled archer, a bow can volley arrows into targets quickly and at range. Nocking an arrow and drawing a bow takes virtually no time for a trained user, so we don't think bows need {@quality Prepare} or any other qualities to reflect that. However, bows do require a certain innate skill and coordination to use, hence the {@quality Unwieldy} quality.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 2,
+      "skill": "Ranged",
+      "damage": "7",
+      "critical": "3",
+      "range": "Medium",
+      "cost": {
+        "gold": 275
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "d700b745f1f34fb49760",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Crossbow",
+    "creator": "SYSTEM",
+    "description": "Crossbows can never match the effectiveness of a wellcrafted bow in the hands of a talented archer, but they are simple to use and powerful. The strength of a crossbow's mechanism is represented by the {@quality Pierce} quality. The downside of a crossbow is the additional time it takes to ready it for firing versus simply nocking an arrow, hence the {@quality Prepare} quality.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "Ranged",
+      "damage": "7",
+      "critical": "2",
+      "range": "Medium",
+      "cost": {
+        "gold": 600
+      },
+      "encumbrance": 3,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "7a33dcf4d7c44bd3994c",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Longbow",
+    "creator": "SYSTEM",
+    "description": "The primitive appearance of the {@gear bow} and longbow belies their effectiveness. In the hands of a skilled archer, a bow can volley arrows into targets quickly and at range. Nocking an arrow and drawing a bow takes virtually no time for a trained user, so we don't think bows need {@quality Prepare} or any other qualities to reflect that. However, bows do require a certain innate skill and coordination to use, hence the {@quality Unwieldy} quality.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "Ranged",
+      "damage": "8",
+      "critical": "3",
+      "range": "Long",
+      "cost": {
+        "gold": 450
+      },
+      "encumbrance": 3,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "39d17e377f644f0ca5f6",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Heavy Jacket",
+    "creator": "SYSTEM",
+    "description": "This is our profile for the heavy jacket. This is general enough to represent a piece of clothing that would fit into a number of eras. The jacket has no defense, because it has no elements that would deflect a blow. It adds +1 soak to your character, which is in line with heavy clothing, but not at the level of military or police armor. The price is what you'd expect to pay for a rugged, well-made jacket. It also isn't a problem to carry (remember that when the jacket's worn, that encumbrance drops down to 0). However, besides cosmetic customizations, a jacket doesn't do much, so there aren't any other special rules. Finally, jackets are really easy to find, leading to the low rarity.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 1,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 50
+      },
+      "encumbrance": 1,
+      "defense": "0",
+      "soak": "+1",
+      "special": ""
+    },
+    "id": "2e579c951d4f41018573",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Chainmail",
+    "creator": "SYSTEM",
+    "description": "Chainmail is good at absorbing a hit and dispersing the force over a broader area. We've represented such armor with a solid soak value, but no defense. Mail armor is somewhat noisy, so your character adds {@dice setback} to {@skill Stealth} checks they make while wearing it.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 550
+      },
+      "encumbrance": 3,
+      "defense": "0",
+      "soak": "+2",
+      "special": ""
+    },
+    "id": "bfce65bfbc8b4a7ebced",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Heavy Robes",
+    "creator": "SYSTEM",
+    "description": "Swirling robes in the midst of combat can entangle an attacker's weapon and make it hard for an attacker to pinpoint your vital areas. To represent this, robes don't provide any soak but do add defense.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 0,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 45
+      },
+      "encumbrance": 1,
+      "defense": "1",
+      "soak": "+0",
+      "special": ""
+    },
+    "id": "6506e76490d64b99b49f",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Leather Armor",
+    "creator": "SYSTEM",
+    "description": "Leather armor, whether soft or boiled and hardened, might absorb some of the impact from a blow, but it won't turn a blade entirely. That's why we've given it a low soak value, but no defense.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 50
+      },
+      "encumbrance": 2,
+      "defense": "0",
+      "soak": "+1",
+      "special": ""
+    },
+    "id": "1ebec7937f5f4c24b842",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Plate Armor (Magic)",
+    "creator": "SYSTEM",
+    "description": "The addition of shielding enchantments worked directly into a suit of plate armor provides a supernatural level of protection, hence the high defense and soak. It also is lighter and less restrictive than other types of armor, so it has none of regular plate's penalties.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 8,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 2400
+      },
+      "encumbrance": 3,
+      "defense": "2",
+      "soak": "+2",
+      "special": ""
+    },
+    "id": "e6ffa9ed3d1f457fb4cd",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Plate Armor",
+    "creator": "SYSTEM",
+    "description": "Plate armor absorbs a considerable amount of damage, and the angled plates can turn aside blows entirely. Hence, the armor both has a high soak value and provides some defense. Plate armor is heavy and very noisy. Your character adds {@dice setback|2} to {@skill Stealth} checks they make while wearing it.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 1250
+      },
+      "encumbrance": 4,
+      "defense": "1",
+      "soak": "+2",
+      "special": ""
+    },
+    "id": "b305843a3dce45869c62",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Backpack of Holding",
+    "creator": "SYSTEM",
+    "description": "A backpack of holding is a deceptively normal-looking leather backpack whose interior is substantially larger than its exterior. How this is possible is a secret known only to the most learned wizards. It is, obviously, magical. A backpack of holding can carry items of up to 12 encumbrance total. The backpack is always encumbrance 2, regardless of how much it's holding.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 8,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 600
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "8a3d114e97e64a3a9f3b",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Fine Cloak",
+    "creator": "SYSTEM",
+    "description": "A fine silk or embroidered wool cloak not only protects the wearer from the elements, it also elevates their stature in the eyes of others. When wearing a fine cloak, your character removes {@dice setback} from any {@skill Charm}, {@skill Deception}, or {@skill Leadership} checks they make. When worn, a fine cloak's encumbrance is 0.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 90
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "dc84ef136c5d4d5e8295",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Herbs of Healing",
+    "creator": "SYSTEM",
+    "description": "Herbs or poultices with ill-defined but powerful healing effects are a staple of many settings. These are often slightly magical in nature. When making a {@skill Medicine} check, your character may use herbs of healing to add automatic {@symbols sa} to the results. Herbs of healing are consumed when used.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 50
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "8d01dadc44854e5499e1",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Thieves' Tools",
+    "creator": "SYSTEM",
+    "description": "This is a collection of lockpicks, files, wires, and oil contained in a small leather pouch, used for quietly opening locks. Needless to say, adventurers find these useful. Thieves' tools allow your character to attempt to open any mechanical locks or latches, even complicated ones. In addition, when making a {@skill Skulduggery} check to open a lock or latch, your character adds automatic {@symbols a} to the results.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 75
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "ac1f7cf9d54140dcb389",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Torch",
+    "creator": "SYSTEM",
+    "description": "Torches are wooden sticks with oil-soaked cloths wrapped around one end. When lit, they burn for a long time and help illuminate your surroundings. A lit torch provides light and removes {@dice setback} added to checks due to {@rule concealment (darkness, smoke, and intervening terrain)|darkness}. (If it becomes important to determine how far the light reaches, a torch can provide light out to short range.)",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 0,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 1
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "80572433d2f141af81c5",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Winter Clothing",
+    "creator": "SYSTEM",
+    "description": "Made of thick wool and furs, winter clothing consists of heavy coats, leggings, sturdy boots, and thick cloaks, keeping adventurers warm in the coldest environments. When wearing winter clothing, your character removes {@dice setback|2} from any {@skill Survival} or {@skill Resilience} checks they make due to cold weather. When worn, winter clothing's encumbrance is 1.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 100
+      },
+      "encumbrance": 4,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "3c88582fd3124c2aa291",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Spring-Fist",
+    "creator": "SYSTEM",
+    "description": "A spring-fist is essentially a clockwork pair of brass knuckles. At one end is a glove reinforced with metal banding. The rest of the spring-fist is a series of coilsprings connected to a sturdy framework that runs the length of your character's arm. When activated, it lets your character strike with bone-breaking force. However, the springs require time to retighten after each use, hence the {@quality Slow-Firing} item quality The {@quality Slow-Firing} quality does not stop your character from making unarmed attacks in the intervening rounds, but they do not benefit from the spring-fist's profile while doing so.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "Brawl",
+      "damage": "+4",
+      "critical": "4",
+      "range": "Engaged",
+      "cost": {
+        "gold": 525
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "918e5257fa5b4011b1e1",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Rotorsword",
+    "creator": "SYSTEM",
+    "description": "This heavy \"sword\" features a rotating, bladed chain that runs most of the length of the weapon. It is little more than a steam-powered chainsaw held like a two-handed sword. Although a rotorsword is extremely deadly, the impracticality of having to fuel it before battle has prevented it from becoming a mainstay of fighting forces. Additionally, bringing it to a gunfight is still risky We've given this grisly weapon the {@quality Vicious}, {@quality Sunder}, and {@quality Pierce} qualities to represent the horrible damage its heavy rotating blade inflicts. To represent the weight and impracticality of the weapon, we've added {@quality Inaccurate} and {@quality Cumbersome}. Rotorswords require two hands to wield (and use the {@skill Melee (Heavy)} skill if in settings that include that skill).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "Melee",
+      "damage": "+3",
+      "critical": "2",
+      "range": "Engaged",
+      "cost": {
+        "gold": 400
+      },
+      "encumbrance": 5,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "c93fa89645344674942d",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Sword Cane",
+    "creator": "SYSTEM",
+    "description": "A sword cane fits this setting quite well: a deadly weapon concealed in aristocratic accessories. The blade remains hidden in the cane, while the hilt is disguised as the cane's top. The sword cane has the {@quality Defensive} quality (as do most swords), and it has a special rule to reflect how easy it is to hide. Those searching a character add {@dice setback} to any {@skill Perception} checks they make to find the sword inside the cane.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "Melee",
+      "damage": "+1",
+      "critical": "2",
+      "range": "Engaged",
+      "cost": {
+        "gold": 110
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "944d047180b1409a9121",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Auto-Rotary Gun",
+    "creator": "SYSTEM",
+    "description": "This is a multi-barrel machine gun, like a real-world Gatling or Maxim gun. However, rather than achieving its high rate of fire through hand cranking or recoil operation, the steampunk auto-rotary gun is driven by a steam engine. This results in a rather large and heavy weapon that consumes a voracious amount of ammunition and coal (which take some time to arrange before firing, represented by the {@quality Prepare} quality). For obvious reasons, this weapon has the {@quality Auto-fire} and {@quality Cumbersome} qualities.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "Ranged (Heavy)",
+      "damage": "11",
+      "critical": "3",
+      "range": "Long",
+      "cost": {
+        "gold": 1100
+      },
+      "encumbrance": 7,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "7beb5b878b214f669eeb",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Clockwork Grenade",
+    "creator": "SYSTEM",
+    "description": "Our steampunk take on the common hand grenade is a bulky canister containing a simple boiler heated by combining two chemicals. When the user vigorously cranks the device, the chemicals combine, generating ferocious heat. This builds a massive amount of steam pressure, giving the user has a few moments to throw the grenade before the canister fragments. The explosive pressure flings the metal shards in all directions at high velocity, and splatter from the chemicals may burn the targets as well (represented by the {@quality Burn} quality). Because the whole device is horribly unstable, if the user generates {@symbols d} on the check, the device blows up in their hand, and they suffer an automatic hit dealing the weapon's base damage.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "Ranged (Light)",
+      "damage": "8",
+      "critical": "3",
+      "range": "Short",
+      "cost": {
+        "gold": 50
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "1d8cc5ff1dee407fa7e8",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Death Ray",
+    "creator": "SYSTEM",
+    "description": "Death rays are guns that fire a beam of energy with (as you might have guessed) deadly results. Each death ray is unique, the product of a deranged inventor or brainfried galvanist. The exact nature of the energy beam and its creation vary depending on the inventor. More than one inventor has claimed to have created their death ray for peaceful purposes, and that the existence of such a weapon will mean an end to war. Of course, it's actually only resulted in a death-ray arms race. Our death ray fires a beam of electricity, radiated ions, charged aether, or what-have-you in an erratic path, like that of a lightning bolt. This is why we've given it short range and the {@quality Inaccurate} quality. In addition, it must recharge between shots, represented by {@quality Slow-Firing}. It's still exceedingly deadly, of course. Having a Critical rating of 1 means that this thing could be very dangerous when used against player characters, so if you're a GM, think long and hard before you give this to an NPC!",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 10,
+      "skill": "Ranged (Heavy)",
+      "damage": "12",
+      "critical": "1",
+      "range": "Short",
+      "cost": {
+        "gold": 4500
+      },
+      "encumbrance": 5,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "aeb9491eb18b4d57b556",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Hand Cannon",
+    "creator": "SYSTEM",
+    "description": "A hand cannon is quite literally a breech-loading, largebore pistol that operates much like its larger kin. The weapon is typically used for big-game hunting, and its effects on a human target are predictably devastating. The term is also sometimes applied to oversized revolvers with similar stopping power. While hand cannons of all makes generally take the form of a large pistol, the recoil is such that all but the largest and strongest individuals are advised to place both hands firmly on the grip before pulling the trigger. Someone firing a hand cannon probably has to brace themself to deal with the significant recoil, which we've represented with the {@quality Prepare} quality. It has to reload, so characters only get one shot (but that's usually enough).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 0,
+      "skill": "Ranged (Light)",
+      "damage": "9",
+      "critical": "3",
+      "range": "Medium",
+      "cost": {
+        "gold": 400
+      },
+      "encumbrance": 3,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "e15a0a5d96d145ebb42f",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Repeating Rifle",
+    "creator": "SYSTEM",
+    "description": "This profile covers any rifle that holds multiple cartridges. It could be bolt or lever action, and fed by an internal or external magazine, but these subtle differences don't affect the profile. It can't fire quickly enough to warrant the {@quality Auto-fire} quality. However, you might describe an attack that deals significant damage or a Critical Injury as multiple bullets striking the target.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "Ranged (Heavy)",
+      "damage": "8",
+      "critical": "3",
+      "range": "Long",
+      "cost": {
+        "gold": 500
+      },
+      "encumbrance": 4,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "761b80cd30e845d2a75a",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Rotor Pistol",
+    "creator": "SYSTEM",
+    "description": "Something like the Gatling gun of the nineteenth century, a rotor pistol consists of a number of barrels that rotate rapidly in order to achieve a high rate of fire. Unlike a Gatling gun, though, a rotor pistol isn't hand cranked; it is fired with a pull of the trigger. This is achieved by means of a quartz-galvanite battery that unleashes a single strong pulse of electricity that sends the gun's mechanisms into motion. After firing, you have to not only completely reload the internal magazine of the pistol, but also replace the battery. The {@quality Limited Ammo} quality doesn't mean a rotor pistol only holds one bullet, of course, but that a single burst of fire consumes all its ammunition.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "Ranged (Light)",
+      "damage": "5",
+      "critical": "4",
+      "range": "Short",
+      "cost": {
+        "gold": 280
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "c5dc2a06426d4febad83",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Admiral Arthur's Astounding Amplimotive Armor",
+    "creator": "SYSTEM",
+    "description": "This is a large, heavy suit of armor. The thick metal plating completely covers the wearer, although the helmet may be easily removable or have a hinged faceplate. This armor provides the best protection possible short of an actual tank, but it is far too heavy for anyone to support. That's where Admiral Arthur Schilling's patented steampowered amplimotive architecture comes in. By way of a complex system of gears and hydraulics, the armor responds to and enhances each movement by the wearer. A character wearing this armor increases both their silhouette and Brawn by one. (This does increase your character's soak accordingly.)",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 9,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 1250
+      },
+      "encumbrance": 3,
+      "defense": "1",
+      "soak": "+2",
+      "special": ""
+    },
+    "id": "51a7b0d1e60e48528dfb",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Cogsuit",
+    "creator": "SYSTEM",
+    "description": "A cogsuit is a suit of makeshift armor assembled from scavenged armor plates and machine parts (which sometimes include cogs). Such armor is common among pirates and other riffraff. However, these days the name is also often used for specially made armor worn by adventurers and agents of the Imperial Crown. Units in the military use a variant of the cogsuit that provides equivalent protection but looks much more professional.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 275
+      },
+      "encumbrance": 3,
+      "defense": "1",
+      "soak": "+1",
+      "special": ""
+    },
+    "id": "f9a1985ed243435fb908",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Insulated Garb",
+    "creator": "SYSTEM",
+    "description": "This covers any sort of outfit designed to protect the wearer from hostile environments. It may incorporate cotton, rubber, asbestos, lead, or pretty much anything that does, or might, protect against a particular hazard. In addition to its soak, insulated garb provides {@dice boost|2} to any {@skill Resilience} checks made to resist environmental extremes appropriate to the garb. If you need insulated garb, an {@gear air mask} (below) is probably also a good call.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 2,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 175
+      },
+      "encumbrance": 3,
+      "defense": "0",
+      "soak": "+1",
+      "special": ""
+    },
+    "id": "6ddbe2776ebb40d48885",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Air Mask",
+    "creator": "SYSTEM",
+    "description": "An air mask, sometimes called a breath mask or gas mask, filters the air for its wearer. Sophisticated and expensive models might instead include an air supply, likely in the form of a backpack or hip canister. An air mask allows a user to avoid being poisoned by airborne toxins and to operate in corrosive atmospheres without penalty. The more expensive version with a built-in air supply allows the user to operate underwater for one hour without penalty.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 75
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "e47cdd7d6f864f76b54d",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Air Mask with Tank",
+    "creator": "SYSTEM",
+    "description": "An air mask, sometimes called a breath mask or gas mask, filters the air for its wearer. Sophisticated and expensive models might instead include an air supply, likely in the form of a backpack or hip canister. An air mask allows a user to avoid being poisoned by airborne toxins and to operate in corrosive atmospheres without penalty. The more expensive version with a built-in air supply allows the user to operate underwater for one hour without penalty.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 150
+      },
+      "encumbrance": 3,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "e34265bfa7b84856997e",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Aeropack/Aerosuit",
+    "creator": "SYSTEM",
+    "description": "This is any sort of personal flight device. Such items vary greatly in operation and appearance, and most are unique inventions. An aeropack might feature a steam rocket, a propeller, or flapping wings of clockwork and canvas. A character wearing an aeropack can {@sidebar flying|fly} (see page 100). However, flying doesn't come naturally to humans, and your GM might call for a {@skill Piloting} check in dangerous or unusual circumstances. In addition, none of these devices are incredibly reliable, so a {@symbols d} result means it runs out of power at the end of your character's turn and remains unpowered for the rest of the session. (It also means that if your character doesn't make it to solid ground by that point, they're in for a fall!)",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 1000
+      },
+      "encumbrance": 5,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "0134495544a648f38a50",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Dr. Wilson's Incomparable Miracle Tonic",
+    "creator": "SYSTEM",
+    "description": "This curious elixir is, despite its name, only one of countless such cure-alls available for purchase (also, it was not developed by a real doctor). As with most such products, both the ingredients and the effect of the tonic are vague, but it indeed fulfills its promise to soothe pain and enhance the user's vigor and alertness. A character who uses a maneuver to drink the tonic increases their wound threshold and strain threshold by five until the end of the current encounter, but must succeed at an {@difficulty Average|Resilience} as an incidental or suffer 5 strain - an unfortunate side effect of the quicksilver included in the tincture. If your character is already benefiting from the use of the tonic, additional uses have no further effect. Furthermore, once the effects wear off, if your character's wounds or strain now exceed their threshold, they're immediately incapacitated and suffer all related effects.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 200
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "a0d11417bd0147699645",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Hooded Lantern",
+    "creator": "SYSTEM",
+    "description": "A simple but ingenious modification of the common lantern, the hooded lantern uses a metal hood and glass lens to focus the lantern's light, making the beam travel farther and also making the light harder to spot when it's not directed squarely at an observer. A lit hooded lantern provides light and removes {@dice setback} added to checks due to {@rule concealment (darkness, smoke, and intervening terrain)|darkness}. (If it becomes important to determine how far the light reaches, a focused hooded lantern's light can reach out to medium range.) In addition, your character can use a hooded lantern and not automatically be spotted at night or in the dark (although they still need to add {@dice setback} to any {@skill Stealth} checks they make, because the light still makes it easier to be noticed).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 75
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "66c3810979084563ab90",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Van Ryn's Potion of Paralyzation",
+    "creator": "SYSTEM",
+    "description": "This tonic does have the distinction of being created by an actual doctor, who was attempting to invent an anesthetic. However, various unscrupulous individuals have repurposed it as a incapacitating poison. A character may covertly drug someone's food with this poison (requiring an {@b opposed {@skill Skulduggery} vs. {@skill Vigilance} check}) or apply it to a weapon such as a knife as a maneuver. If the target ingests the poison or it enters their bloodstream by other means, they must make a {@difficulty Hard|Resilience} check as an out-of-turn incidental or become immobilized for the next three rounds. The target also suffers 1 strain per {@symbols h}, and your GM can spend {@symbols d} to make them test against the poison again at the start of their next turn, as it remains in their system.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 525
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "04f8f347b1284befa35e",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Electric Truncheon",
+    "creator": "SYSTEM",
+    "description": "Electric truncheons are nasty, ostensibly non-lethal weapons designed for crowd control. Think of them as clubs that also shock their targets on contact. The {@quality Disorient} quality reflects the truncheon's electrical charge. The charge is not necessarily enough to be lethal, hence the {@quality Stun Damage} quality (but a powerful shock can still kill someone, so the weapon has a Critical rating).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "Melee",
+      "damage": "+2",
+      "critical": "3",
+      "range": "Engaged",
+      "cost": {
+        "gold": 150
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "7a971157b3c14669b18f",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Razor Whip",
+    "creator": "SYSTEM",
+    "description": "Razor whips are made of flexible, braided alloy with razor-sharp blades embedded within. They can shred through armor and flesh (the {@quality Pierce} quality) and can be used to entangle targets (the {@quality Ensnare} quality). Whips also tend to have a special rule allowing wielders to attack targets that are farther away. A razor whip can be used to make melee attacks against targets at short range. The difficulty for this attack is {@difficulty Average}.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "Melee",
+      "damage": "+1",
+      "critical": "3",
+      "range": "Short",
+      "cost": {
+        "gold": 290
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "4e542fb7acfc48c18fb9",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "DEW Pistol",
+    "creator": "SYSTEM",
+    "description": "Currently rare and experimental, directed energy weapons (DEWs) project highly focused energy (light, electricity, or more esoteric energy), rather than solid projectiles, at a target. Directed energy weapons are equal in power to lasers from other settings, but they tend to have a shorter range and to dissipate on the surface of a target (no {@quality Pierce} quality). They more than make up for that by regularly setting targets on fire (via the {@quality Burn} quality).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 8,
+      "skill": "Ranged (Light)",
+      "damage": "6",
+      "critical": "3",
+      "range": "Short",
+      "cost": {
+        "gold": 450
+      },
+      "encumbrance": 4,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "b4a0cf8d59de44bcb840",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "DEW Rifle",
+    "creator": "SYSTEM",
+    "description": "Currently rare and experimental, directed energy weapons (DEWs) project highly focused energy (light, electricity, or more esoteric energy), rather than solid projectiles, at a target. Directed energy weapons are equal in power to lasers from other settings, but they tend to have a shorter range and to dissipate on the surface of a target (no {@quality Pierce} quality). They more than make up for that by regularly setting targets on fire (via the {@quality Burn} quality).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 8,
+      "skill": "Ranged (Heavy)",
+      "damage": "8",
+      "critical": "3",
+      "range": "Medium",
+      "cost": {
+        "gold": 900
+      },
+      "encumbrance": 6,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "4f820a72800740c7be7c",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Flash Gun",
+    "creator": "SYSTEM",
+    "description": "Flash guns are a varied collection of weapons\u2014submachine guns, automatic rifles, machine guns\u2014fitted with propulsion units powered by Illirium batteries that give them unparalleled rates of fire and stopping power. The lingering effects of the energy propulsion system tend to rattle enemy troops they don't kill outright. This flash gun is based off of a basic submachine gun, while flash technology provides the {@quality Disorient} and {@quality Pierce} item qualities. Other flash guns can be created by using the rifle or pistol stats and adding {@quality Disorient} and {@quality Pierce}.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "Ranged (Heavy)",
+      "damage": "6",
+      "critical": "3",
+      "range": "Medium",
+      "cost": {
+        "gold": 900
+      },
+      "encumbrance": 4,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "ea7c7bb57d03436d857e",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Flash Machine Gun",
+    "creator": "SYSTEM",
+    "description": "The flash machine gun (the A6a) uses the same Illirium batteries as the flash gun to propel its rounds, but it shoots larger bullets at a higher rate of fire. Bulky and finicky, these new weapons are extremely good at pinning down enemy formations or scything through occult horrors. They are big and bulky enough that only the strongest individuals can wield them without a tripod or other support.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 9,
+      "skill": "Gunnery",
+      "damage": "10",
+      "critical": "2",
+      "range": "Long",
+      "cost": {
+        "gold": 1450
+      },
+      "encumbrance": 8,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "918ce1c407204c01bf48",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Meteop Launcher",
+    "creator": "SYSTEM",
+    "description": "Meteops are small, dome-shaped explosive devices that are, essentially, high-powered anti-personnel weapons. They are fired from bulky, single-shot launchers and are typically used to break up enemy formations or clear rooms and vehicles. The launchers themselves are heavy and awkward, which gives them the {@quality Cumbersome} quality. The meteop munitions provide the raw damage, low Crit rating, and high {@quality Blast} quality.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "Gunnery",
+      "damage": "12",
+      "critical": "2",
+      "range": "Medium",
+      "cost": {
+        "gold": 850
+      },
+      "encumbrance": 6,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "067f13faadd44b81ae21",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Illirium BG-42 Vest",
+    "creator": "SYSTEM",
+    "description": "One of the factors that has allowed the Union to match its supernatural foes in the field is the rare and powerful element known as Illirium. Illirium batteries power Union flash guns, and Illirium-reinforced armor vests not only can absorb bullets (hence the soak value), but can temporarily be energized to create a force field. When wearing a BG-42 vest, once per encounter as an incidental, your character may activate the force field to gain melee and ranged defense 2 until the end of their next turn.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 600
+      },
+      "encumbrance": 4,
+      "defense": "0",
+      "soak": "+2",
+      "special": ""
+    },
+    "id": "bf4cdf507ae446448795",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Tesla Coil",
+    "creator": "SYSTEM",
+    "description": "The Matriarchy pioneered Tesla coils as personal force fields. Made largely of glass and alloy and worn on a belt or strap, they project a crackling electric field to deflect enemy fire (represented by the item's defense rating).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 8,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 550
+      },
+      "encumbrance": 2,
+      "defense": "2",
+      "soak": "+0",
+      "special": ""
+    },
+    "id": "9bdb48380ce047e48837",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "First Aid Kit",
+    "creator": "SYSTEM",
+    "description": "These are not medical kits, but they provide just enough medical material to be useful while being small and cheap enough to issue to most infantry on the battlefield. This kit provides your character with the equipment needed to make Medicine checks to heal wounds or Critical Injuries without penalty. However, {@symbols hhh or d} means your character has used all of the kit's supplies.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 100
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "5572dfe69ae34519a6b4",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "\"Nighteyes\" Goggles",
+    "creator": "SYSTEM",
+    "description": "These fantastic goggles are based on alien technology. They allow the wielder to see through {@rule concealment (darkness, smoke, and intervening terrain)|smoke, fog, and darkness} and even enhance their aim. While wearing \"Nighteyes,\" your character removes {@dice setback|2} added to their checks due to {@rule concealment (darkness, smoke, and intervening terrain)|smoke, darkness, or concealment}. When performing the {@rule Aim} maneuver, they can choose to add automatic {@symbols a} to their check instead of {@dice boost}.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 800
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "2d2874808e3d4d21af7c",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Unholy Tome",
+    "creator": "SYSTEM",
+    "description": "This could be almost any book or parchment that describes dread rituals to summon and control the infernal. If your character reads from an unholy tome, for the remainder of the encounter they add automatic {@symbols ss} to any social skill checks with supernatural or occult creatures. However, if your character generates {@symbols d} on those checks, the creature immediately attacks your character.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 9,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 3000
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "f5a305e6928949e9bfa0",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Warding Icon",
+    "creator": "SYSTEM",
+    "description": "A warding icon protects against the occult and can be worn around the neck or on one's clothing. If your character is wearing a warding icon, any supernatural or occult creature engaged with them is {@rule disoriented} while they remain engaged.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 800
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "e0a5afdc376849dfbe7f",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Brass Knuckles",
+    "creator": "SYSTEM",
+    "description": "Brass knuckles are very simple weapons: chunks of brass designed to slip over your fingers and add power to your punches. Brass knuckles really are simple weapons, and this profile could also represent a roll of quarters.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 1,
+      "skill": "Brawl",
+      "damage": "+1",
+      "critical": "4",
+      "range": "Engaged",
+      "cost": {
+        "gold": 40
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "3fa2e5eb05e34a1a8ca6",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Collapsible Baton",
+    "creator": "SYSTEM",
+    "description": "Simple but effective, this is a telescoping baton with a weighted tip. A powerful swing can break bones. If you want to do a larger riot-control baton instead, increase the damage by one or two, but increase the encumbrance by the same amount.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 2,
+      "skill": "Melee",
+      "damage": "+2",
+      "critical": "3",
+      "range": "Engaged",
+      "cost": {
+        "gold": 70
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "eaa62f208a764711b1ce",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Stun Gun",
+    "creator": "SYSTEM",
+    "description": "The name \"stun gun\" is a bit of a misnomer; it's a hand-held device with protruding electrodes. Push the electrodes into an opponent, and they get shocked. That's why the weapon has damage that can't be modified by your character's Brawn (you don't hit people with a stun gun; you just touch them with it), and any similar weapon should follow a similar profile. Obviously, the {@quality Stun Damage} quality is another must, and we added the {@quality Stun} quality to represent some people suffering worse effects than others from the electric shock. We also gave it a Critical rating; after all, an electric shock can occasionally do lasting damage!",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 1,
+      "skill": "Melee",
+      "damage": "6",
+      "critical": "6",
+      "range": "Engaged",
+      "cost": {
+        "gold": 100
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "a876560c629944ba951f",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Assault Rifle",
+    "creator": "SYSTEM",
+    "description": "While clattering, hard-hitting assault rifles are ostensibly military weapons, they can and often do fall into the hands of gangs, crime syndicates, and insurgents. The assault rifle presented here is a basic AR- or AK-pattern rifle like those carried throughout the world. The {@quality Auto-Fire} quality is the primary thing that separates these weapons from other types of rifles, although they can be fired on semiautomatic as well (your character may choose whether or not to use {@quality Auto-fire}). Assault rifles do roughly the same damage as other \"long guns.\" Many militaries make carbine versions of their assault rifles, such as the U.S. military's Colt M4. They're more compact than full-sized rifles and a bit easier to wield. Carbines change their range to medium, but decrease their encumbrance by one.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "Ranged (Heavy)",
+      "damage": "8",
+      "critical": "3",
+      "range": "Long",
+      "cost": {
+        "gold": 1000
+      },
+      "encumbrance": 4,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "a4ea9c77aee24b27a4da",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Light Pistol",
+    "creator": "SYSTEM",
+    "description": "The light pistol listing is for a basic, medium-caliber pistol: a 9 mm or .38 caliber weapon, for example. If you want, say, a .22 caliber pistol, you could reduce the damage by one and increase the Critical rating by one. If it's a cheap, disposable \"Saturday night special\" kind of gun, maybe give it a rank or two in the {@quality Inaccurate} or {@quality Inferior} qualities instead.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "Ranged (Light)",
+      "damage": "5",
+      "critical": "4",
+      "range": "Short",
+      "cost": {
+        "gold": 100
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "1cc7b79678e7459d8b01",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Heavy Pistol",
+    "creator": "SYSTEM",
+    "description": "Heavy pistols are the big, bulky hand cannons that show up in movies in the hands of cops on the edge or great big heroes. Their damage and Critical rating can also be adjusted up or down by one (but not more) to reflect larger or smaller calibers.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "Ranged (Light)",
+      "damage": "6",
+      "critical": "3",
+      "range": "Medium",
+      "cost": {
+        "gold": 300
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "65ebeba91ec64ff4a7e4",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Hunting Rifle",
+    "creator": "SYSTEM",
+    "description": "Hunting rifles are nearly as ubiquitous as pistols in developed countries with a long history of hunting and sporting. These rifles have long barrels and are often fitted with long-range telescopic sights to increase their performance and accuracy. The hunting rifle presented here is a double-barreled deer rifle in a standard hunting caliber like .30-06, .308, or 7 mm. You may reduce the damage by one for smaller varmint rifles, or increase it by one for big-game weapons like elephant guns. Most hunting rifles should have the {@quality Accurate} quality, since they're built for single-shot accuracy. Finally, a hunting rifle can have an internal magazine. These rifles lose the {@quality Limited Ammo|Limited Ammo 2} quality, but increase their price by 100.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "Ranged (Heavy)",
+      "damage": "8",
+      "critical": "3",
+      "range": "Long",
+      "cost": {
+        "gold": 750
+      },
+      "encumbrance": 4,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "2a835069c5ef4c0790bf",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Machine Gun",
+    "creator": "SYSTEM",
+    "description": "Machine guns are large, heavy, often crew-served weapons. Depending on the type, a machine gun can be anything from a medium-weight, man-portable squad-support weapon to a heavy, turret-mounted .50 cal. The machine gun presented here can be used for any of the medium-caliber squad-support weapons like the M60, M249, or MG4. They're designed to be carried in the field, but they still have a high encumbrance (check out page 207 for rules for a bipod or tripod for this weapon). Heavier machine guns can have their damage increased by two, although you should increase their encumbrance and {@quality Cumbersome} rating by two as well.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "Gunnery",
+      "damage": "10",
+      "critical": "3",
+      "range": "Long",
+      "cost": {
+        "gold": 1500
+      },
+      "encumbrance": 6,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "63b1bd8e12e8415ca76b",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Portable Missile Launcher",
+    "creator": "SYSTEM",
+    "description": "The weapon presented here represents one of the countless shoulder-fired anti-aircraft missiles used throughout the world, such as the Stinger missile. Their extreme range and {@quality Guided} quality reflect the fact that they are long-ranged anti-vehicle weapons. They, of course, only hold one missile at a time and need a few moments to set up, so the {@quality Limited Ammo} and {@quality Prepare} qualities are a must for these weapons (reloads for these launchers should cost half of the weapon's initial cost). If you want to create an anti-armor weapon like a TOW, the {@quality Breach} should be increased to 5 and {@quality Prepare} to 2.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 8,
+      "skill": "Gunnery",
+      "damage": "20",
+      "critical": "2",
+      "range": "Extreme",
+      "cost": {
+        "gold": 100000
+      },
+      "encumbrance": 8,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "e99dac7c3fbb4a68bf11",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Shotgun",
+    "creator": "SYSTEM",
+    "description": "When you really want to make an impression in a firefight, a shotgun is a great way to go. Pulling a pistol from a hidden pocket just doesn't have the same dramatic effect as, say, drawing a lever-action 10 gauge out of a box of roses in slow motion. The flat thump of the report, the muzzle flash, the shocking recoil, even the loud clack-clack noise of working a pump action make these weapons an assault on everyone's senses, and also is what makes them so popular in action movies! The stat line in {@table II.4-1: Modern Armor} is for a basic pump or semiautomatic hunting weapon with buckshot. Shotguns possess the {@quality Blast} quality due to the cloud of shot they fire and the {@quality Knockdown} quality due to the concussion of their blast (and, honestly, the {@sidebar Rule of Cool}). The basic shotgun stat line also assumes a magazine-fed weapon. If you wanted to have a simple break-action single- or double-barreled shotgun, you would give the weapon the {@quality Limited Ammo|Limited Ammo 1 or 2} quality. Sawed-off shotguns have their encumbrance reduced by two, and they gain the {@quality Inaccurate|Inaccurate 1} quality. If you really want to dress up a scene, a character wielding a shotgun could add {@dice boost} to any {@skill Coercion} checks, especially if they rack the slide and glare menacingly at the target.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "Ranged (Heavy)",
+      "damage": "8",
+      "critical": "3",
+      "range": "Short",
+      "cost": {
+        "gold": 500
+      },
+      "encumbrance": 3,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "a2459dc973c94e239c80",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Submachine Gun",
+    "creator": "SYSTEM",
+    "description": "Submachine guns (SMGs) use pistol-caliber ammunition and a high rate of fire to provide a whole lot of damage capacity in a small, easy-to-use package. They are popular among criminals, police, and special forces operators the world over. The SMG presented in {@table II.4-1: Modern Weapons} on page 166 is a typical 9mm weapon that might be used by a metropolitan police force or carried by a drug lord's bodyguard. It deals the same damage as a light pistol, since they share calibers. It can fire full auto, so it has the {@quality Auto-fire} quality. Even when it doesn't fire on full auto, we imagine each \"shot\" is actually several bullets, and so we gave it a lower Critical rating to represent the sheer amount of lead it puts in the air.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "Ranged (Light)",
+      "damage": "5",
+      "critical": "3",
+      "range": "Medium",
+      "cost": {
+        "gold": 400
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "b064588945bf432482e4",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Sniper Rifle",
+    "creator": "SYSTEM",
+    "description": "While they vary by service and country, all sniper rifles are designed to fire high-caliber, high-velocity rounds over long distances. The sniper rifle entry here is a basic dedicated sniper rifle like the U.S. Army's M24 rifle. The range is extreme to represent its ability to reach farther than even regular hunting rifles. Sniper rifles possess the {@quality Accurate} and {@quality Pierce} qualities to reflect their excellent balance and specialized rounds. They do, however, have a smaller magazine, hence the {@quality Limited Ammo} quality.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "Ranged (Heavy)",
+      "damage": "9",
+      "critical": "2",
+      "range": "Extreme",
+      "cost": {
+        "gold": 1200
+      },
+      "encumbrance": 4,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "2b6c32e941634a9a93ac",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Flak Vest",
+    "creator": "SYSTEM",
+    "description": "In modern times, most militaries, police departments, and people in a war zone use flak vests. These are made from lightweight polymers and ballistic fabrics and provide decent protection from small arms and shrapnel (as represented by the vest's soak value).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 475
+      },
+      "encumbrance": 3,
+      "defense": "0",
+      "soak": "+2",
+      "special": ""
+    },
+    "id": "76121d8ef2e346498ed0",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Riot Armor",
+    "creator": "SYSTEM",
+    "description": "A staple of police departments the world over, riot armor is designed to protect from stones, bottles, shrapnel, and small-arms fire. The suit includes a helmet with eye protection and a large polycarbonate shield for deflecting blows and pushing crowds. We represent this with the higher defense and moderate soak, since the armor deflects hits better than it stops bullets. Your character must use one hand to carry the riot shield. If they do not, the armor's defense drops to 1.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 675
+      },
+      "encumbrance": 5,
+      "defense": "2",
+      "soak": "+1",
+      "special": ""
+    },
+    "id": "31abbe6a9ec643a9aca1",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Ghillie Suit",
+    "creator": "SYSTEM",
+    "description": "Ghillie suits are simple camouflage suits that conceal snipers and forward observers. A suit is little more than a baggy shirt and pair of trousers covered in countless strips of fabric, clumps of grass, and other detritus. Since ghillie suits are designed to obscure rather than protect, they have a single point of defense but no soak. Characters trying to spot someone wearing a ghillie suit upgrade the difficulty of their check once.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 95
+      },
+      "encumbrance": 1,
+      "defense": "0",
+      "soak": "+1",
+      "special": ""
+    },
+    "id": "9f7c3cafa96d4052839d",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Extra Clip",
+    "creator": "SYSTEM",
+    "description": "This is exactly what it sounds like: an extra clip of ammunition for a ranged weapon. If your character has an extra clip, they may spend a maneuver to reload and continue to use their weapon if it runs out of ammo. This uses up the extra clip. (You can't use this to reload weapons with the {@quality Limited Ammo} quality, as they usually have special costs for their reloads or are one-use weapons.)",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 2,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 25
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "ad78557fdbbb41d8a97e",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Portable Medkit",
+    "creator": "SYSTEM",
+    "description": "A well-equipped portable medkit comes with everything someone might need to treat all manner of injuries, from bullet wounds to broken legs. A portable medkit allows your character to perform Medicine checks to heal wounds and Critical Injuries without penalty. The inclusion of modern drugs adds automatic {@symbols a} to the check results.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 200
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "3a72e93fecaa4f76bb67",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Night Vision Goggles",
+    "creator": "SYSTEM",
+    "description": "These goggles allow the user to see normally in the dark. When wearing night vision goggles, your character removes up to {@dice setback|2} added to their checks due to {@rule concealment (darkness, smoke, and intervening terrain)|darkness}.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 500
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "4620cb769a89475b8da6",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Monoblade Knife",
+    "creator": "SYSTEM",
+    "description": "This is an age-old weapon with a futuristic twist, a knife given an impossibly sharp edge through materials sciences. This is just like the knife on page 91, except that this knife has a better Crit rating and the {@quality Pierce} quality; it can cut through tough materials and is more likely to inflict deadly wounds. If you want to make a monoblade sword (or katana), up the damage to +3, give it the {@quality Defensive} 1 quality, and multiply the price by 2.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "Melee",
+      "damage": "+1",
+      "critical": "2",
+      "range": "Engaged",
+      "cost": {
+        "gold": 240
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "a51792107c254a9db5e4",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Stun Baton",
+    "creator": "SYSTEM",
+    "description": "This is supposed to be a slightly more futuristic version of a police riot club, a weapon that shocks opponents into submission. One thing to note is that even though this is a Melee weapon, it doesn't add your character's Brawn to the damage (signified by the lack of a \"+\" before the damage value). Since the weapon discharges an electric shock whenever it touches an opponent, how hard your character swings it doesn't matter. Also, this weapon is non-lethal, so it has the {@quality Stun Damage} quality.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 2,
+      "skill": "Melee",
+      "damage": "6",
+      "critical": "4",
+      "range": "Engaged",
+      "cost": {
+        "gold": 160
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "52e5426ef9e443b88764",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Flechette Pistol",
+    "creator": "SYSTEM",
+    "description": "The flechette pistol uses electromagnetic coils to fire bursts of tiny metal spears called flechettes. These benefit from significant penetrative power and can sometimes punch straight through an opponent (represented by the {@quality Pierce|Pierce 2} quality), but they don't have a great deal of stopping power (hence the lower damage). Since each shot is actually a burst of several flechettes, the low Crit rating and {@quality Vicious|Vicious 2} quality represent the high chance of internal damage.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "Ranged (Light)",
+      "damage": "4",
+      "critical": "2",
+      "range": "Short",
+      "cost": {
+        "gold": 500
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "a2aca1252a5543eb8197",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Flechette Launcher",
+    "creator": "SYSTEM",
+    "description": "The flechette launcher is a larger, heavier version of the {@gear Flechette Pistol}, similar to a shotgun in that it fires larger bursts of flechettes (hence the {@quality Blast|Blast 4} and higher {@quality Vicious} quality).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "Ranged (Heavy)",
+      "damage": "4",
+      "critical": "2",
+      "range": "Medium",
+      "cost": {
+        "gold": 800
+      },
+      "encumbrance": 3,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "9b3f15d89a0a4a8982e4",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Laser Pistol (Sci-Fi)",
+    "creator": "SYSTEM",
+    "description": "Laser weapons fire a beam of coherent light, causing damage through intense, searing heat. In this setting, we're assuming that handheld lasers are still being refined, so these early models have some drawbacks. One issue with laser weapons is beam diffusion over long distances, which is why our laser weapons are relatively short ranged. These lasers don't have a lot of penetration, since they expend their energy on the surface of whatever they hit, so no {@quality Pierce}. But they are very accurate and can light targets on fire, hence the {@quality Accurate} and {@quality Burn} qualities.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "Ranged (Light)",
+      "damage": "6",
+      "critical": "3",
+      "range": "Short",
+      "cost": {
+        "gold": 650
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "c56f3e0a970c4d7f8722",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Laser Rifle (Sci-Fi)",
+    "creator": "SYSTEM",
+    "description": "Laser weapons fire a beam of coherent light, causing damage through intense, searing heat. In this setting, we're assuming that handheld lasers are still being refined, so these early models have some drawbacks. One issue with laser weapons is beam diffusion over long distances, which is why our laser weapons are relatively short ranged. These lasers don't have a lot of penetration, since they expend their energy on the surface of whatever they hit, so no {@quality Pierce}. But they are very accurate and can light targets on fire, hence the {@quality Accurate} and {@quality Burn} qualities.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "Ranged (Heavy)",
+      "damage": "8",
+      "critical": "3",
+      "range": "Medium",
+      "cost": {
+        "gold": 900
+      },
+      "encumbrance": 4,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "8a0bf9942a184885829e",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Gauss Rifle",
+    "creator": "SYSTEM",
+    "description": "A gauss rifle uses an electromagnetic rail or coil to hurl a metal projectile over a long distance at incredible speed. The main drawback of this weapon is that it takes some time to recharge its capacitors after firing, so we gave it {@quality Slow-Firing} (it's also important to do this for balance reasons, since this weapon is very powerful). We gave it {@quality Cumbersome} as well, so a character needs to be strong to carry it around, or must use a {@optionFeature bipod} (see page 207).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "Ranged (Heavy)",
+      "damage": "10",
+      "critical": "2",
+      "range": "Extreme",
+      "cost": {
+        "gold": 2000
+      },
+      "encumbrance": 5,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "77eb6914fa4b49c5ab6b",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Micro-Missile Launcher",
+    "creator": "SYSTEM",
+    "description": "One thing we can expect in the future is the further miniaturization of computers, which leads us to the micromissile launcher. This portable weapon fires miniature missiles that lock onto a target, pursue it, and detonate. The tracking ability comes with the {@quality Guided} quality (and the time to lock onto a target is represented by the {@quality Prepare} quality). As with the {@gear Gauss Rifle}, a weapon this powerful needs drawbacks to compensate, which are the weapon's high {@quality Cumbersome} rating and encumbrance.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "Gunnery",
+      "damage": "12",
+      "critical": "4",
+      "range": "Long",
+      "cost": {
+        "gold": 3000
+      },
+      "encumbrance": 5,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "2d9b22b902894d5a99fa",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Plasteel Carapice",
+    "creator": "SYSTEM",
+    "description": "Made from semifuturistic materials, a suit of plasteel carapace armor completely covers your character from head to toe, and with the right attachments can even be environmentally sealed. The armor has a rigid outer shell that deflects or blocks incoming attacks (represented by the reasonably high soak value and a defense value).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 750
+      },
+      "encumbrance": 4,
+      "defense": "1",
+      "soak": "+1",
+      "special": ""
+    },
+    "id": "f72dfbdc5ffc4b9e9708",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Optical Camo Suit",
+    "creator": "SYSTEM",
+    "description": "An optical camo suit plays with the idea that holographic projectors and other similar technologies will, in the future, allow people to wear armor that \"cloaks\" them and makes them invisible to the naked eye. Our optical camo suit doesn't quite go that far, but it does use holoprojectors to blur and obscure the wearer, making them much harder to hit (hence the defense value). Unfortunately, the complicated projector tech doesn't do much if someone manages to land a lucky blow, which is why this armor has no soak value.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 580
+      },
+      "encumbrance": 2,
+      "defense": "2",
+      "soak": "+0",
+      "special": ""
+    },
+    "id": "b7943ffeb6d0491d90ca",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Cyber-Rig",
+    "creator": "SYSTEM",
+    "description": "Hackers use cyber-rigs to delve deep into the Internet (or its equivalent) and defeat the most dangerous firewalls and programs. These things are big, with multiple monitor screens, towers full of electronics, and countless wires. A cyber-rig does everything a personal computer does. It also adds automatic {@symbols s} to any checks made to hack into protected servers, and adds automatic {@symbols f} to any checks by opponents to hack into its own systems.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 2000
+      },
+      "encumbrance": 8,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "2cfe1f9ec06c46b2b1dc",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "PAD",
+    "creator": "SYSTEM",
+    "description": "Personal access devices (PADs) are small, handheld computers not too dissimilar to today's smartphones and tablets (although their capabilities are notably superior). A PAD does everything you would expect a personal computer to do, just slightly faster and more easily.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 200
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "53d4d4c7bbfb4f54ae12",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Cybernetic Arm or Leg",
+    "creator": "SYSTEM",
+    "description": "Besides replacing a missing limb, a cybernetic arm or leg adds +1 to your character's Brawn or Agility rating (your choice when your character obtains the limb). If your character has one or more cybernetic arms, they decrease their strain threshold by one, and if they have one or more cybernetic legs, they decrease their strain threshold by one.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "cybernetic",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 2000
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "047ed46c80c54da1a9fb",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Skulljack",
+    "creator": "SYSTEM",
+    "description": "A skulljack is a cerebral point that allows your character to access a computer with their mind. As long as the skulljack is linked to a computer (either wired or wirelessly), it increases your character's Intellect rating by one. If your character has a skulljack, they decrease their strain threshold by one.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "cybernetic",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 2500
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "60551ad1baf44898922e",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Cybereyes",
+    "creator": "SYSTEM",
+    "description": "Cybernetic eyes provide +1 rank to your character's {@skill Perception} and {@skill Vigilance}, and remove {@dice setback} added to their checks due to {@rule concealment (darkness, smoke, and intervening terrain)|darkness}. If your character has one or more cybereyes, they decrease their strain threshold by one.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "cybernetic",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 800
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "72b34500869d429b8eed",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Implant Armor",
+    "creator": "SYSTEM",
+    "description": "Implant armor is added beneath your character's skin, giving them discreet protection. Implant armor provides +1 soak. If your character has implant armor, they decrease their strain threshold by one.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "cybernetic",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 1000
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "2337d56bad68460cab07",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Cyberorgans",
+    "creator": "SYSTEM",
+    "description": "Cyberorgans allow individuals to survive heart disease, lung cancer, and other deadly ailments. However, these devices also can be bought as implants that improve performance. A cyberorgan provides either +2 wound threshold (this is a special exception to the +1 increase limit, but cannot be increased past +2), +1 {@skill Resilience}, or +1 {@skill Athletics} (you choose when you buy the organ). For each cyberorgan your character has, they decrease their strain threshold by one.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "cybernetic",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 750
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "cb43c38d996f4c6bb526",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Shudder Blade",
+    "creator": "SYSTEM",
+    "description": "This weapon is essentially a combat knife with a carbon alloy blade that vibrates at an ultrasonic frequency, allowing it to slice through even the strongest materials. These traits are represented with the {@quality Pierce} and {@quality Vicious} qualities as well as a good Crit rating, giving the weapon a chance to inflict significant injuries on even armored targets.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "Melee",
+      "damage": "+2",
+      "critical": "2",
+      "range": "Engaged",
+      "cost": {
+        "gold": 450
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "5e49f2503b1f4ebca478",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Assault Cannon",
+    "creator": "SYSTEM",
+    "description": "This is the evolution of modern day autocannons and heavy machine guns. It may or may not feature multiple rotating barrels, or use explosive or armor-piercing shells, but the end result is much the same, since we are assuming the explosive radius isn't enough to justify the {@quality Blast} quality. Instead, the {@quality Pierce} and {@quality Vicious} qualities combine with high damage to make a weapon that's probably overkill against infantry and enough to threaten light vehicles.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "Gunnery",
+      "damage": "15",
+      "critical": "3",
+      "range": "Long",
+      "cost": {
+        "gold": 4500
+      },
+      "encumbrance": 6,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "76e7b36afa5c49c88314",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Grenade Lobber",
+    "creator": "SYSTEM",
+    "description": "We've given this grenade launcher a profile reflecting a standard grenade. If you use a different kind of grenade (such as the {@gear particle grenade}), change the damage and Crit ratings accordingly, and add the relevant qualities (you wouldn't change the launcher's {@quality Limited Ammo} quality, for instance). Although this weapon is similar to a modern-day grenade launcher, sophisticated targeting systems help the user fire at the right trajectory to hit even distant targets, hence the long range and {@quality Accurate} quality.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "Gunnery",
+      "damage": "8",
+      "critical": "4",
+      "range": "Long",
+      "cost": {
+        "gold": 1000
+      },
+      "encumbrance": 5,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "ad3b8c28187f4c039f19",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Laser Cannon",
+    "creator": "SYSTEM",
+    "description": "These weapons fire beams of energy, which is really all the explanation you need in a space opera setting. Unlike the laser weapons presented in the hard {@setting science fiction} setting on page 175, we assume these weapons are sophisticated enough that diffusion over distance isn't a problem. We also decided that the focused beams of these weapons can easily punch holes in armor, hence the {@quality Pierce} (or even {@quality Breach}) quality.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "Gunnery",
+      "damage": "9",
+      "critical": "3",
+      "range": "Extreme",
+      "cost": {
+        "gold": 3120
+      },
+      "encumbrance": 8,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "b9a0b8cc134e4ee68151",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Laser Pistol (Space Opera)",
+    "creator": "SYSTEM",
+    "description": "These weapons fire beams of energy, which is really all the explanation you need in a space opera setting. Unlike the laser weapons presented in the hard {@setting science fiction} setting on page 175, we assume these weapons are sophisticated enough that diffusion over distance isn't a problem. We also decided that the focused beams of these weapons can easily punch holes in armor, hence the {@quality Pierce} (or even {@quality Breach}) quality.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "Ranged (Light)",
+      "damage": "5",
+      "critical": "3",
+      "range": "Medium",
+      "cost": {
+        "gold": 360
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "66518266da13457aa22c",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Laser Rifle (Space Opera)",
+    "creator": "SYSTEM",
+    "description": "These weapons fire beams of energy, which is really all the explanation you need in a space opera setting. Unlike the laser weapons presented in the hard {@setting science fiction} setting on page 175, we assume these weapons are sophisticated enough that diffusion over distance isn't a problem. We also decided that the focused beams of these weapons can easily punch holes in armor, hence the {@quality Pierce} (or even {@quality Breach}) quality.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "Ranged (Heavy)",
+      "damage": "6",
+      "critical": "3",
+      "range": "Long",
+      "cost": {
+        "gold": 860
+      },
+      "encumbrance": 4,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "00b8b3bda48f430b9cc2",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Particle Grenade",
+    "creator": "SYSTEM",
+    "description": "This grenade releases a blast of highly energized particles that disrupt the nervous systems of most organic creatures. For this sci-fi take on the classic stun grenade, we figured the particles have a potent enough effect to leave the target dazed even once they regain control of their body, represented by a higher {@quality Disorient} rating in addition to {@quality Concussive}.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "Ranged (Light)",
+      "damage": "6",
+      "critical": "4",
+      "range": "Short",
+      "cost": {
+        "gold": 200
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "f5073af8c77549868090",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Plasma Cannon",
+    "creator": "SYSTEM",
+    "description": "These weapons all fire spherical bolts of high-energy ionized gas. The exact chemicals and technology involved are sure to differ between manufacturers and species, but the result is devastating, superheated energy projectiles. Even the larger weapons in this category have a fairly limited range, since we figure the electromagnetic field generated for each projectile can only maintain its coherency for a short time. The bolts of superheated gas leave flesh sizzling and armor smoldering, hence the {@quality Burn} quality. The largest weapons - plasma cannons - need time to cool down after each shot (hence the {@quality Slow-Firing} quality).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "Gunnery",
+      "damage": "10",
+      "critical": "2",
+      "range": "Long",
+      "cost": {
+        "gold": 2000
+      },
+      "encumbrance": 7,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "72819b0d1e5844fbb024",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Plasma Pistol",
+    "creator": "SYSTEM",
+    "description": "These weapons all fire spherical bolts of high-energy ionized gas. The exact chemicals and technology involved are sure to differ between manufacturers and species, but the result is devastating, superheated energy projectiles. Even the larger weapons in this category have a fairly limited range, since we figure the electromagnetic field generated for each projectile can only maintain its coherency for a short time. The bolts of superheated gas leave flesh sizzling and armor smoldering, hence the {@quality Burn} quality. The largest weapons - plasma cannons - need time to cool down after each shot (hence the {@quality Slow-Firing} quality).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "Ranged (Light)",
+      "damage": "10",
+      "critical": "2",
+      "range": "Short",
+      "cost": {
+        "gold": 1200
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "c3062d08bfba4988bd38",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Plasma Rifle",
+    "creator": "SYSTEM",
+    "description": "These weapons all fire spherical bolts of high-energy ionized gas. The exact chemicals and technology involved are sure to differ between manufacturers and species, but the result is devastating, superheated energy projectiles. Even the larger weapons in this category have a fairly limited range, since we figure the electromagnetic field generated for each projectile can only maintain its coherency for a short time. The bolts of superheated gas leave flesh sizzling and armor smoldering, hence the {@quality Burn} quality. The largest weapons - plasma cannons - need time to cool down after each shot (hence the {@quality Slow-Firing} quality).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "Ranged (Heavy)",
+      "damage": "10",
+      "critical": "2",
+      "range": "Medium",
+      "cost": {
+        "gold": 1400
+      },
+      "encumbrance": 4,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "bd8b328603a84a538679",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Sliver Rocket Launcher",
+    "creator": "SYSTEM",
+    "description": "A sliver rocket launcher is named for the appearance of its narrow, supersonic projectiles. Sliver rockets don't have an explosive payload, but their armor-piercing warheads are immensely effective against even the toughest vehicles. We've given the weapon {@quality Breach} to account for the devastating effects of impact against both vehicles and flesh.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "Gunnery",
+      "damage": "15",
+      "critical": "2",
+      "range": "Extreme",
+      "cost": {
+        "gold": 10000
+      },
+      "encumbrance": 7,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "e56287d2f1074bdcb82f",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Slug Pistol",
+    "creator": "SYSTEM",
+    "description": "Despite thousands of years of innovation, handguns and rifles that chemically propel solid metal bullets remain a mainstay of fighting forces. These are common among poorer and less technologically advanced forces.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 1,
+      "skill": "Ranged (Light)",
+      "damage": "6",
+      "critical": "4",
+      "range": "Short",
+      "cost": {
+        "gold": 200
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "1b29d2bf0be342b682fe",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Slug Rifle",
+    "creator": "SYSTEM",
+    "description": "Despite thousands of years of innovation, handguns and rifles that chemically propel solid metal bullets remain a mainstay of fighting forces. These are common among poorer and less technologically advanced forces.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "weapon",
+      "subtype": "",
+      "rarity": 1,
+      "skill": "Ranged (Heavy)",
+      "damage": "7",
+      "critical": "4",
+      "range": "Medium",
+      "cost": {
+        "gold": 375
+      },
+      "encumbrance": 3,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "4d373a6de0cc4c368af5",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Elite Shock Armor",
+    "creator": "SYSTEM",
+    "description": "Elite shock armor is the kind of horribly effective, horribly expensive armor that governments and armies only give to their very best soldiers. These might be marines assigned to board enemy starships, commando raiders sent behind enemy lines on the most dangerous missions, or the elite bodyguards of powerful emperors and rulers. When wearing this armor, characters increase their Brawn by 1, to a maximum of 5 (this does increase their soak value) and count their encumbrance capacity as 10+Brawn. This armor is also environmentally sealed, meaning that it counts as a {@gear space suit} (see the next page).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 5000
+      },
+      "encumbrance": 5,
+      "defense": "1",
+      "soak": "+2",
+      "special": ""
+    },
+    "id": "d64a088d91eb41999f97",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Infantry Combat Armor",
+    "creator": "SYSTEM",
+    "description": "The combat armor used by foot soldiers of various interplanetary governments is pretty similar across the galaxy, providing a solid soak value with minimal encumbrance. If you are using the hard point customization rules (see page 206), infantry combat armor has three hard points (instead of the usual one).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 700
+      },
+      "encumbrance": 2,
+      "defense": "0",
+      "soak": "+2",
+      "special": ""
+    },
+    "id": "b97b6685c01d4fb8bf18",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Personal Force Field",
+    "creator": "SYSTEM",
+    "description": "Force fields are a mainstay of space opera sci-fi, although in many settings they are primarily or exclusively used to protect ships and other large targets. The sophisticated technology and high power draw mean that personal force fields are rare and expensive. Mechanically, a high defense is less predictable than soak, but has the potential to cause otherwise successful attacks to fail.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "armor",
+      "subtype": "",
+      "rarity": 8,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 2000
+      },
+      "encumbrance": 1,
+      "defense": "3",
+      "soak": "+0",
+      "special": ""
+    },
+    "id": "b8be3226f7fd4bcdbb55",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Comm-Bead",
+    "creator": "SYSTEM",
+    "description": "This communications device fits into a sentient's ear (or other auditory orifice) and allows them to communicate with friends and allies within 100 kilometers. If the comm-bead can tie into a planetary communications network (the kind that any civilized planet has), then it can communicate with anyone on the same planet.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 1,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 25
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "2f99efe8e01e423b9107",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Portable Motion Sensor",
+    "creator": "SYSTEM",
+    "description": "This handheld device, easily stored in a pocket or pouch, detects nearby movement. The user can calibrate sensitivity to avoid false alarms by small vermin. Under normal conditions, a character using the sensor automatically detects any moving creatures within medium range. Of course, it can't distinguish friend from foe or identify the creatures. If creatures within range are actively hidden, your character adds {@dice boost|2} to {@skill Vigilance} or {@skill Perception} checks to notice them while using the motion sensor (instead of spotting them automatically).",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 120
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "d9f981bb53a14fe0a9f9",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Smart-System",
+    "creator": "SYSTEM",
+    "description": "The next evolution of personal computing, this handheld device fits into a pocket or can be worn on a wrist and functions as a personal computer with an incorporated weak AI. Basically, this means your character can talk to their computer and it answers back. The AI isn't as smart as an average person, and its \"weak\" status means it can't learn or evolve, but it does everything a modern computer can do and can even allow futuristic hackers to access and attempt to override security systems. In addition to functioning as a personal computer, the smart-system has information stores that allow the wearer to add {@dice boost} to any Intellect-based checks they make.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 3000
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "7a2427701cb0475d8a48",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Space Suit",
+    "creator": "SYSTEM",
+    "description": "Space suits are a must in every space opera setting. After all, one of the mainstays of the setting is traveling through space. They all do roughly the same thing: keep the wearer alive in a vacuum. Generally, space suits include the following: multidirectional maneuvering thrusters, a built-in light, a communications device, magnetic-soled boots, and an emergency repair kit that allows the user to fix any small leaks or tears as a maneuver. The space suit also allows the wearer to survive in vacuum for up to four hours.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "gear",
+      "subtype": "",
+      "rarity": 2,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 100
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "f0b75a995a604677aa99",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Druidic Circlet",
+    "creator": "SYSTEM",
+    "description": "Druidic circlets could be simple bands of entwined metal, elaborate headdresses of antlers, or even crowns of ivy. They help those using primal magic commune with the natural world. When the user casts the Conjure spell to summon a living creature, adding the Summon Ally effect does not increase its difficulty. In addition, the creature remains summoned until the end of the encounter without your character having to use the concentrate maneuver.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "implement",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 750
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "5e87e185c9d3408ca5c4",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Holy Icon",
+    "creator": "SYSTEM",
+    "description": "Holy icons are items that represent your character's faith and help them focus that faith to cast spells. These are generally religious symbols of some sort, perhaps necklaces, rings, emblems, or medallions. But they just as easily can simply represent your character's beliefs. Holy icons enable divine spellcasters to perform unique miracles. When they are casting a spell, adding any Divine Only effects increase the spell's difficulty one less than they would normally. In addition, the number of wounds healed by heal spells cast by the user increases by two..",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "implement",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 250
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "062434ff7d214589b722",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Magic Orb",
+    "creator": "SYSTEM",
+    "description": "These can be orbs of glass, gems, or other semitransparent minerals, and are generally small enough to be carried. Magic orbs help augment the user's ability to affect more targets with their spells. When the user casts a spell, adding the Additional Target and Additional Summon effects do not increase its difficulty. In addition, attack spells cast by the user increase their base damage by three.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "implement",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 1000
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "1b9c29c177564e429093",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Magic Ring",
+    "creator": "SYSTEM",
+    "description": "Magic rings are items of great power and danger in most fantasy settings. We decided to stick with that theme, so our rings are items of great power and peril. When a character obtains a magic ring, you, the GM, choose one type of magic skill, then select three effects that can be added to spells cast by that skill. Two of the effects can normally only increase the difficulty of the spell by one; the third can normally only increase the difficulty of the spell by two. When the user casts a spell, adding these effects do not increase the spell's difficulty. However, when using a magic ring, you must always upgrade the difficulty of any spells you cast once, and {@symbols dd} cannot be spent to destroy the ring. In addition, attack spells cast by the user increase their base damage by two. An example of this might be a ring of protection, which allows your character to add the Range, Additional Target, and Reflection effects to a {@spell Barrier} spell without increasing the difficulty.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "implement",
+      "subtype": "",
+      "rarity": 8,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 10000
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "73e2cbd026a843779b29",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Magic Staff",
+    "creator": "SYSTEM",
+    "description": "Magical staffs have long been a staple of magic in a variety of settings. Used by wizards, druids, and shamans, these can look like ornate, rune-encrusted rods of brass and obsidian, simple wooden staffs, or pretty much anything else. Magical staffs almost universally augment the user's ability to cast spells at range. When they are casting a spell, adding the first Range effect added to the spell does not increase the spell's difficulty. In addition, attack spells cast by the user increase their base damage by four.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "implement",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 400
+      },
+      "encumbrance": 2,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "70219682433b415e828f",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Magic Wand",
+    "creator": "SYSTEM",
+    "description": "Magical wands are as much a tradition of magic as staffs. Usually small sticks about the size and shape of a conductor's baton, they can be constructed from just about anything and worked with any number of designs. Magic wands help augment the user's ability to cast spells in a very specific way. When a character makes or obtains the wand, you, the GM, determine one effect that the wand lets users add to any appropriate spell without increasing the spell's difficulty. The effect chosen must be one that, without a wand, only increases difficulty by one. In addition, attack spells cast by the user increase their base damage by three. For example, your character could have a wand of fire, which lets them add the Fire effect to any magic attack actions they perform. They could also have a wand of enervation, which lets them add the Enervate effect to any curse actions they perform. However, they cannot have a wand of grand summoning, because the Grand Summon effect increases the difficulty of the spell by two, not one.",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "implement",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 400
+      },
+      "encumbrance": 1,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "c1620fe875834b19956b",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Balanced Hilt",
+    "creator": "SYSTEM",
+    "description": "This attachment represents modifying a melee weapon's balance (particularly around the hilt or haft) to make it easier to control. This kind of attachment makes sense for any setting (even futuristic combat knives can benefit from being finely weighted or balanced). ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 1000
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "8d925ab70978418fbc7a",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Bipod Mount",
+    "creator": "SYSTEM",
+    "description": "A bipod (a folding, two-legged stand) can be attached to the barrel of a firearm. The legs stabilize the firearm and take up some of its weight. This kind of attachment makes sense for the {@setting weird war}, {@setting modern day}, {@setting science fiction}, and {@setting space opera} settings. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 2,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 250
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "6c6831b962c14fedb331",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Duelist Cross Guard",
+    "creator": "SYSTEM",
+    "description": "This attachment represents modifying the cross guard of a sword to better catch and lock the blade of an opponent. This kind of attachment makes sense for the {@setting fantasy} setting, but could make sense for any setting where dueling with swords is common. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 800
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "d34a36c2b49f43b8886e",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Extended Barrel",
+    "creator": "SYSTEM",
+    "description": "This attachment extends the barrel (or makes similar modifications) to make the weapon fire farther. This kind of attachment makes sense for the {@setting weird war}, {@setting modern day}, {@setting science fiction}, and {@setting space opera} settings. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 1000
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "36e229c937744f8e9ce8",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Hair Trigger",
+    "creator": "SYSTEM",
+    "description": "A \"hair trigger\" represents a modification that allows the user to fire a weapon very quickly, although this can be at the expense of accuracy. This kind of attachment makes sense for the {@setting weird war}, {@setting modern day}, {@setting science fiction}, and {@setting space opera} settings. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 150
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "b110804f19ac43b391f9",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Razor Edge",
+    "creator": "SYSTEM",
+    "description": "This attachment represents sharpening a blade to a razor edge, then reinforcing or treating that edge so that it can withstand repeated blows. This kind of attachment makes sense for any setting. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 1250
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "434593aa297f42b28405",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Recurve Limbs",
+    "creator": "SYSTEM",
+    "description": "Making the limbs of a bow or crossbow curve away from the wielder increases the penetrating power of the bow's shots, even if it also makes the bow larger and more difficult to wield. This kind of attachment makes sense for {@setting fantasy} settings. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 300
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "8080ce8a3bcd4ac7964e",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Serrated Edge",
+    "creator": "SYSTEM",
+    "description": "Adding jagged sawteeth to a bladed weapon means the wounds it makes are particularly brutal and damaging. This kind of attachment makes sense for any setting. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 2,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 75
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "3623e99f313d4bdda243",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Superior Weapon Customization",
+    "creator": "SYSTEM",
+    "description": "This simply represents the weapon being modified by a master craftsman to be better than other examples of its type. This kind of attachment makes sense for any setting. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 750
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "e0dae25792904af88910",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Telescopic Sight",
+    "creator": "SYSTEM",
+    "description": "A telescopic sight magnifies a target, allowing the user to shoot targets that they could normally barely be able to see (futuristic versions may use special enhanced optics, rather than simple lenses). This kind of attachment makes sense for the {@setting weird war}, {@setting modern day}, {@setting science fiction}, and {@setting space opera} settings. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 200
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "7a2485503fe84472b342",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Tripod Mount",
+    "creator": "SYSTEM",
+    "description": "Like a bipod, the tripod mount is a set of three folding legs that deploy from the center of the weapon to provide a stable stand to fire from. This kind of attachment makes sense for the {@setting weird war}, {@setting modern day}, {@setting science fiction}, and {@setting space opera} settings. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 400
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "9f80bebf90df482d89d2",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Under-Barrel Flamethrower",
+    "creator": "SYSTEM",
+    "description": "Modern firearms sometimes have secondary weapons attached under the barrel, allowing the wielder to effectively carry two weapons in one. This kind of attachment makes sense for the {@setting modern day}, {@setting science fiction}, and {@setting space opera} settings.  ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 6,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 3000
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "ef069911f68748c19145",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Under-Barrel Grenade Launcher",
+    "creator": "SYSTEM",
+    "description": "Modern firearms sometimes have secondary weapons attached under the barrel, allowing the wielder to effectively carry two weapons in one. This kind of attachment makes sense for the {@setting modern day}, {@setting science fiction}, and {@setting space opera} settings.  ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 1500
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "c28d82fe6d7e479fbc54",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Under-Barrel Shotgun",
+    "creator": "SYSTEM",
+    "description": "Modern firearms sometimes have secondary weapons attached under the barrel, allowing the wielder to effectively carry two weapons in one. This kind of attachment makes sense for the {@setting modern day}, {@setting science fiction}, and {@setting space opera} settings.  ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 1000
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "6ec03cc2eca748269d40",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Weapon Sling",
+    "creator": "SYSTEM",
+    "description": "A sling helps a user carry a particularly heavy weapon by taking up part of the weight. This kind of attachment makes sense for any setting. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 1,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 25
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "a21ceb1b4d0f47c58437",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Weighted Head",
+    "creator": "SYSTEM",
+    "description": "Adding extra weight to the head of a blunt weapon lets the wielder strike with greater impact and do more damage. This kind of attachment makes sense in any setting. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 2,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 250
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "3d111f9ec39149c88ede",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Deflective Plating",
+    "creator": "SYSTEM",
+    "description": "This attachment applies angled plates or mildly reflective surfaces to help deflect incoming ranged attacks. This kind of attachment makes sense in {@setting fantasy}, {@setting science fiction}, and {@setting space opera} settings (in the past, armor might be designed to deflect arrows or throwing knives, while in the future, it could reflect lasers or energy blasts). ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 450
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "93b0b27bc3734efead5b",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Enhanced Lifting Servos",
+    "creator": "SYSTEM",
+    "description": "Futuristic servos (or other, similar devices) can be worked into suits of hard carapace armor to make them powered and let the user lift and carry far more than they could normally. This kind of attachment makes sense in {@setting science fiction} and {@setting space opera} settings. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 5,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 1500
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "b62604302bee4fa8aa95",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Intimidating Visage",
+    "creator": "SYSTEM",
+    "description": "Warriors from many cultures paint their armor or add imposing face masks to intimidate opponents. This kind of attachment makes sense in all settings. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 3,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 125
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "691a135556f845d79571",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Rare Metals",
+    "creator": "SYSTEM",
+    "description": "Many fantasy settings feature rare, nearly magical metals that can be used to create superior armor. This kind of attachment makes sense in {@setting fantasy} settings. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 8,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 1000
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "a6360a926738460abdb2",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Reinforced Plating",
+    "creator": "SYSTEM",
+    "description": "This attachment represents adding extra layers of armor or using stronger materials to reinforce the armor. This kind of attachment makes sense in any setting. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 7,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 8000
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "9a598989039b4ed7a637",
+    "uses": {
+      "max": 0
+    }
+  },
+  {
+    "actions": [],
+    "type": "genesys",
+    "version": 1,
+    "name": "Vacuum Sealed",
+    "creator": "SYSTEM",
+    "description": "This attachment equips the armor with breathing gear and seals it against vacuum. This kind of attachment makes sense in the {@setting science fiction} and {@setting space opera} settings. ",
+    "privacy": {
+      "users": [],
+      "level": "public"
+    },
+    "data": {
+      "type": "attachment",
+      "subtype": "",
+      "rarity": 4,
+      "skill": "",
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "cost": {
+        "gold": 600
+      },
+      "encumbrance": 0,
+      "defense": "",
+      "soak": "",
+      "special": ""
+    },
+    "id": "b06eddc3c2ad4f06a7ce",
+    "uses": {
+      "max": 0
+    }
+  }
+]
