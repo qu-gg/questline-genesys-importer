@@ -1,0 +1,31 @@
+{
+    "name": "genesys-importer-web",
+    "version": "1.0.0",
+    "description": "A web tool to convert Genesys RPG items to Questline VTT format",
+    "main": "src/js/app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "serve .",
+      "dev": "serve ."
+    },
+    "keywords": [
+      "genesys",
+      "questline",
+      "vtt",
+      "converter",
+      "rpg"
+    ],
+    "author": "Quagg",
+    "license": "MIT",
+    "devDependencies": {
+      "serve": "^14.2.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/qu-gg/genesys-importer-web.git"
+    },
+    "bugs": {
+      "url": "https://github.com/qu-gg/genesys-importer-web/issues"
+    },
+    "homepage": "https://qu-gg.github.io/genesys-importer-web"
+  }
